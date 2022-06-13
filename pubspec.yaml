@@ -1,0 +1,80 @@
+name: easysalon_users_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+dependencies:
+  #Packages
+  flutter:
+    sdk: flutter
+  mixup:
+    path: ./packages/mixup
+
+  #Provider
+  provider: ^6.0.2
+
+  #Utils
+  shared_preferences: ^2.0.13
+  image_picker: ^0.8.5
+  tiengviet: ^0.5.0
+  intl: ^0.17.0
+  rxdart: ^0.27.4
+  either_dart: ^0.1.4
+
+
+  #Ui
+  cupertino_icons: ^1.0.2
+  page_transition: ^2.0.5
+
+  #service
+  http: ^0.13.4
+
+  flutter_localizations:
+    sdk: flutter
+    version: ^0.0.0
+  timezone: ^0.8.0
+  flutter_intl: ^0.0.1
+  # easy_localization: ^3.0.1
+  #local
+  get_storage: ^2.0.3
+  #reponsive
+  flutter_screenutil: ^5.5.3+2
+  google_fonts: ^3.0.1
+  flutter_svg: ^1.1.0
+
+dev_dependencies:
+  #Testing
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.1.0
+
+  # Generate
+  build_runner: ^2.1.10
+
+  #Format
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: LineIcons
+      fonts:
+        - asset: assets/fonts/LineIcons.ttf
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Thin.ttf
+        - asset: assets/fonts/Roboto-Light.ttf
+        - asset: assets/fonts/Roboto-LightItalic.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-ThinItalic.ttf
+        
+flutter_intl:
+  enabled: true
+  arb_dir: lib/_shared/intl/l10n
+  output_dir: lib/_shared/intl/generated

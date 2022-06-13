@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/easysalon_users_app/BuildConfig.java
+ com.example.easysalon_users_app.BuildConfig

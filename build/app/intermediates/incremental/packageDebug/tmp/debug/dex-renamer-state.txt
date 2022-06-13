@@ -1,0 +1,4 @@
+#Mon Jun 13 14:07:55 ICT 2022
+base.0=D\:\\Program Files\\Code Projects\\Flutter\\easysalon_users_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
